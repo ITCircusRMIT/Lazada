@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #0E0387;
+    height: 100px;
+}
+
+header .container {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items:center ;
+}
+
+header .logo img {
+    height: 100px;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100px;
+    padding-right: 50px;
+}
+
+header nav img {
+    height: 32px;
+}
