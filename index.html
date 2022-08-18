@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>LAZADA</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="./main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c23e7a09a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Lazada</title>
   </head>
   <body>
     <header>
@@ -14,14 +20,279 @@
             ><img src="img/lazada-logo-white.png" alt=""
           /></a>
         </div>
-        <div class="search"></div>
+        <div class="search">
+          <form class="search-bar">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><span class="material-symbols-outlined">search</span></button>
+          </form>
+        </div>
         <nav>
           <a href="#"><img src="img/shopping-basket.png" alt="" /></a>
           <a href="#"><img src="img/user.png" alt="" /></a>
         </nav>
       </div>
     </header>
-    <main></main>
+    <main>
+     <section class="top-main">
+      <div class="cate-slide">
+       <div class="category">
+        <nav>
+          <a href="#" class="cate-item">Electronic Devices<span class="material-symbols-outlined">double_arrow</span></a>
+          <a href="#" class="cate-item">Electronic Accessories<span class="material-symbols-outlined">double_arrow</span></a>
+          <a href="#" class="cate-item">TV & Home Appliances<span class="material-symbols-outlined">double_arrow</span></a>
+          <a href="#" class="cate-item">Health & Beauty<span class="material-symbols-outlined">double_arrow</span></a>
+          <a href="#" class="cate-item">Babies & Toys<span class="material-symbols-outlined">double_arrow</span></a>
+          <a href="#" class="cate-item">Groceries & Pets<span class="material-symbols-outlined">double_arrow</span></a>
+          <a href="#" class="cate-item">Home & Lifestyle<span class="material-symbols-outlined">double_arrow</span></a>
+          <a href="https://www.youtube.com/watch?v=e9mVfv3b-4E" target="_blank" class="cate-item">Women <img src="img/pitr_Coffee_cup_icon.png"><span class="material-symbols-outlined">double_arrow</span></a>
+          <a href="#" class="cate-item">Men's Fashion & Accessories<span class="material-symbols-outlined">double_arrow</span></a>
+          <a href="#" class="cate-item">Kid's Fashion & Accessories<span class="material-symbols-outlined">double_arrow</span></a>
+          <a href="#" class="cate-item">Sports & Travel<span class="material-symbols-outlined">double_arrow</span></a>
+          <a href="#" class="cate-item">Automotive & Motorcycles<span class="material-symbols-outlined">double_arrow</span></a>
+        </nav>
+       </div>
+       <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <input type="radio" name="radio-btn" id="radio5">
+          <div class="slide first">
+            <img src="img\182494-10-hoat-dong-sinh-nhat-lazada.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="img\lazada-6-6-6.jpg.webp" alt="">
+          </div>
+          <div class="slide">
+            <img src="img\lazada-12.12.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="img\maxresdefault.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="img\top-12-thuong-hieu-sieu-uu-dai-dip-khuyen-mai-lazada-1212.jpg" alt="">
+          </div>
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+            <div class="auto-btn5"></div>
+          </div>
+        </div>
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+        <label for="radio5" class="manual-btn"></label>
+      </div>
+       </div>
+      <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+        if(counter > 5){
+          counter = 1;
+        }
+      }, 5000);
+      </script>
+      </div>
+     </section>
+     
+     <section id="feature">
+      <a href="#" style="text-decoration: none;"><div class="feature-box">
+        <img src="img/TB15wgLWBr0gK0jSZFnXXbRRXXa.png">
+        <div class="title">
+          <h1 class="special">LazMall</h1>
+        </div>
+      </div></a>
+      <a href="#" style="text-decoration: none;"><div class="feature-box">
+        <img src="img/TB1UiNthUT1gK0jSZFhXXaAtVXa.png">
+        <div class="title">
+          <h1 class="special">Vouchers</h1>
+        </div>
+      </div></a>
+      <a href="#" style="text-decoration: none;"><div class="feature-box">
+        <img src="img/TB1DahvhO_1gK0jSZFqXXcpaXXa.png">
+        <div class="title">
+          <h1 class="particular">Top Up & eCoupon</h1>
+        </div>
+      </div></a>
+      <a href="#" style="text-decoration: none;"><div class="feature-box">
+        <img src="img/TB1CDWbBYj1gK0jSZFuXXcrHpXa.png">
+        <div class="title">
+          <h1 class="special">LazGlobal</h1>
+        </div>
+      </div></a>
+     </section>
+
+     <section id="advertisment">
+      <div class="advertisment-box">
+        <a href="#"><img src="img/7fec4986-3e06-43ed-b061-37ede9492149.png"></a>
+      </div>
+      <div class="advertisment-box">
+        <a href="#"><img src="img/6f9c62de-baed-4b2d-a3f8-acb400602154.png"></a>
+      </div>
+      <div class="advertisment-box">
+        <a href="#"><img src="img/e18b9151-748e-4de5-82dc-93d85aa809f0.png"></a>
+      </div>
+     </section>
+     
+     <section id="product1">
+      <div class="product-container">
+        <div class="title-box">
+          <h2>Popular</h2>
+        </div>
+        <div class="all-product">
+          <div class="product">
+            <img src="img/iPhone 13 Mini Midnight.jpg" />
+            <div class="description">
+              <h5>iPhone 13 Mini Midnight 256Gb</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>đ16,499,000</h4>
+            </div>
+          </div>
+          <div class="product">
+            <img src="img/iPhone 13.jpg" />
+            <div class="description">
+              <h5>iPhone 13 Red 128Gb</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>đ18,499,000</h4>
+            </div>
+          </div>
+          <div class="product">
+            <img src="img/iphone_13_starlight.jpg" />
+            <div class="description">
+              <h5>iPhone 13 Starlight 256Gb</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>đ18,999,000</h4>
+            </div>
+          </div>
+          <div class="product">
+            <img src="img/iPhone 13 Mini Midnight.jpg" />
+            <div class="description">
+              <h5>iPhone 13 Midnight 128Gb</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>đ18,499,000</h4>
+            </div>
+          </div>
+          <div class="product">
+            <img src="img/apple-iphone-13-pro-128g-silver-ThXqdD.jpg" />
+            <div class="description">
+              <h5>iPhone 13 PRO Silver 128Gb</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>đ23,499,000</h4>
+            </div>
+          </div>
+          <div class="product">
+            <img src="img/iphone-13-pro-max-green-select5219741.jpg" />
+            <div class="description">
+              <h5>iPhone 13 PRO Max Alpine Green 128Gb</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>đ26,499,000</h4>
+            </div>
+          </div>
+          <div class="product">
+            <img src="img/ip13-pro-gold_1_1_1_13_1.jpg" />
+            <div class="description">
+              <h5>iPhone 13 PRO Gold 128Gb</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>đ23,849,000</h4>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="img/apple-iphone-13-pro-graphite-128gb-chinh-hang-scaled.jpg"
+            />
+            <div class="description">
+              <h5>iPhone 13 PRO Graphite 256Gb</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>đ26,499,000</h4>
+            </div>
+          </div>
+          <div class="product">
+            <img src="img/dien-thoai-iphone-13-pro-512gb-xanh-duong-1.jpg" />
+            <div class="description">
+              <h5>iPhone 13 PRO Sierra Blue 512Gb</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>đ32,499,000</h4>
+            </div>
+          </div>
+          <div class="product">
+            <img src="img/iPhone 13.jpg" />
+            <div class="description">
+              <h5>iPhone 13 Red 256Gb</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>đ18,990,000</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
     <footer>
       <div class="f1"></div>
       <div class="f2"></div>
