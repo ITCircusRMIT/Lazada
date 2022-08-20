@@ -12,6 +12,7 @@
     ></script>
     <title>Lazada</title>
   </head>
+  
   <body>
     <header>
       <div class="header container">
@@ -27,9 +28,48 @@
           </form>
         </div>
         <nav>
-          <a href="#"><img src="img/shopping-basket.png" alt="" /></a>
-          <a href="#"><img src="img/user.png" alt="" /></a>
+          <a href="#"><img src="img/shopping-basket.png"/></a>
+          <img src="img/user.png" class="user-pic" onclick="toggleMenu()">
+
+          <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+              <div class="user-info">
+                <img src="img/Astralis.png">
+                <h3>anhson8203</h3>
+              </div>
+              <hr>
+
+              <a href="#" class="sub-menu-link">
+                <img src="img/profile.png">
+                <p>Edit Profile</p>
+                <span>></span>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <img src="img/setting.png">
+                <p>Setting & Privacy</p>
+                <span>></span>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <img src="img/help.png">
+                <p>Support</p>
+                <span>></span>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <img src="img/logout.png">
+                <p>Logout</p>
+                <span>></span>
+              </a>
+            </div>
+          </div>
         </nav>
+        <script>
+          let subMenu = document.getElementById("subMenu");
+    
+          function toggleMenu() {
+            subMenu.classList.toggle("open-menu");
+          }
+          
+        </script>
       </div>
     </header>
     <main>
