@@ -362,10 +362,14 @@ body {
   cursor: pointer;
 }
 
+.user-pic {
+  cursor: pointer;
+}
+
 .sub-menu-wrap {
   position: absolute;
-  top: 12%;
-  right: 4.8%;
+  top: 90px;
+  right: 93px;
   width: 320px;
   max-height: 0px;
   overflow: hidden;
