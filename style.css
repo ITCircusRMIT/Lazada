@@ -119,7 +119,7 @@ body {
   padding-top: 17px;
   padding-left: 20px;
   display: block;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
   font-size: 20px;
   color: black;
   text-decoration: none;
@@ -129,7 +129,7 @@ body {
 
 .category nav a:hover {
   color: #e68619;
-  transition: ease 500ms;
+  transition: ease 0.1s;
 }
 
 .cate-item span{
@@ -280,7 +280,6 @@ body {
 #product1 .product {
   margin-bottom: 25px;
   width: 80%;
-  border: 1px solid;
   border-radius: 15px;
   cursor: pointer;
   height: 300px;
@@ -391,9 +390,9 @@ body {
   align-items: center;
 }
 
-.sub-menu-wrap .sub-menu .user-info h3 {
+.user-info h3 {
+  font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
 }
 
 .sub-menu-wrap .sub-menu .user-info img {
@@ -420,9 +419,9 @@ body {
   margin: 12px 0;
 }
 
-.sub-menu-wrap .sub-menu .sub-menu-link p {
+.sub-menu-link p {
+  font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
 }
 
 .sub-menu-wrap .sub-menu .sub-menu-link img {
