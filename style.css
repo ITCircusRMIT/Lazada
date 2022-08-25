@@ -367,9 +367,11 @@ body {
 
 .sub-menu-wrap {
   position: absolute;
-  top: 90px;
-  right: 93px;
-  width: 320px;
+  background: #fff;
+  border-radius: 25px;
+  top: 100px;
+  right: 103px;
+  width: 300px;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.5s;
